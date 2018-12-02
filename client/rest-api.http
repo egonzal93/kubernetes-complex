@@ -1,0 +1,48 @@
+
+### Add new value to redis
+POST {{host-url}}values
+Content-Type: application/json
+
+{
+    "index":6
+}
+
+### Add new value to redis
+POST {{host-url}}apiv1/values
+Content-Type: application/json
+
+{
+  "index":6
+}
+
+###
+
+GET {{host-url}}
+Accept: */*
+Cache-Control: no-cache
+
+###
+GET {{host-url}}values/all
+Accept: */*
+Cache-Control: no-cache
+
+###
+GET {{host-url}}values/current
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-22T033222.200.json
+<> 2018-11-22T033111.200.json
+<> 2018-11-22T033031.200.json
+<> 2018-11-22T124358.200.json
+<> 2018-11-22T124230.200.json
+<> 2018-11-22T124153.200.json
+<> 2018-11-22T123153.200.json
+<> 2018-11-22T123128.200.json
+<> 2018-11-22T123048.200.json
+<> 2018-11-22T123010.200.json
+<> 2018-11-22T122856.200.json
+<> 2018-11-22T122754.200.json
+
+###
+
