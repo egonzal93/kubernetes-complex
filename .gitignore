@@ -74,3 +74,5 @@ yarn-error.log*
 
 # git@github.com:egonzal93/docker-epsilon12.git
 .DS_Store
+multi-k8s-224312-ad677414d097.json
+service-account.json
