@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 docker build -t diode/multi-client:latest -t diode/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t diode/multi-server -t diode/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t diode/multi-worker -t diode/multi-worker:$SHA -f ./worker/Dockerfile ./worker
