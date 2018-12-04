@@ -12,7 +12,7 @@ spec:
     - hosts:
         - brandonbradentonstage.org
         - www.brandonbradentonstage.org
-      secret: brandonbradentonstage-org
+      secretName: brandonbradentonstage-org
   rules:
     - host: brandonbradentonstage.org
       http:
